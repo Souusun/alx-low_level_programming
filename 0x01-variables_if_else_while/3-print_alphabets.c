@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- * main - print lowercase and uppercase a -zA-Z using putchar
- * Return: Always 0 (success)
+ *main - print lowercase and uppercase a-zA-Z using putchar
+ *Return: Always 0 (Success)
  */
 
 int main(void)
@@ -16,13 +16,13 @@ int main(void)
 		lower++;
 	}
 
-	while (upper <= 'Z' /*print uppercase A-Z*/
-        {		
-	       putchar(upper);
-	       upper++;
-        }       
+	while (upper <= 'Z') /*print uppercase A-Z*/
+	{
+		putchar(upper);
+		upper++;
+	}
 
-	putchar('\n')
+	putchar('\n');
 
-	return (0)
+	return (0);
 }
